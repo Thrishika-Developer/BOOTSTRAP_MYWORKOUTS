@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Display property page</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Display-none -->
+    <div class="container">
+        <h3 class="h3 bg-info text-white">Display none</h3>
+        <div class="bg-primary text-white mt-5 text-center d-none">Hi,Hello</div>
+    </div>
+
+    <!-- Display-block -->
+     <div class="container">
+        <h3 class="h3 bg-info text-white">Display block</h3>
+        <a href="" class="d-block p-2">Home</a>
+        <a href="" class="d-block p-2">Profile</a>
+        <a href="" class="d-block p-2">About</a>
+        <a href="" class="d-block p-2">Contact</a>
+     </div>
+
+     <!-- Display inline -->
+      <div class="container">
+        <h3 class="h3 bg-info text-white">Display inline</h3>
+        <div class="p-2 d-inline"><p>How are you?</p></div>
+        <div class="p-2 d-inline"><p>How are you?</p></div>
+        <div class="p-2 d-inline"><p>How are you?</p></div>
+      </div>
+
+      <!-- Display flex --> <!--It occupy full width-->
+      <div class="container d-flex bg-info">
+        <h3 class="h3 bg-info text-white me-2">Display flex</h3>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+      </div>
+      <br><br>
+
+      <!-- Display inline-flex  --> <!--It occupy inline width-->
+        <div class="container">
+        <div class="d-inline-flex bg-info p-2">
+        <h3 class="h3 bg-info text-white me-2">Display flex</h3>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+      </div>
+      </div>
+      <br><br>
+      <!-- Responsive versions -->
+       <div class="container">
+        <div class="d-block d-md-flex d-xl-inline">
+        <h3 class="h3 bg-info text-white me-2">Responsive versions</h3>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+        <div class="p-2 me-2 border border-primary"><p>How are you?</p></div>
+       </div>
+       </div>
+    
+<!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
